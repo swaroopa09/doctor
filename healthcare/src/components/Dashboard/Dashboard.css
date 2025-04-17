@@ -1,0 +1,128 @@
+.dashboard-container {
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .dashboard-header {
+    background-color: #005caa;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .dashboard-body {
+    display: flex;
+    flex: 1;
+  }
+  
+  .sidebar {
+    width: 240px;
+    background-color: #f4f6f9;
+    border-right: 1px solid #ccc;
+    padding: 1.5rem;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin: 1rem 0;
+    cursor: pointer;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 2rem;
+    background: #ffffff;
+    overflow-y: auto;
+  }
+  
+  .stats-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .card {
+    background-color: #e8f1fa;
+    padding: 1.5rem;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: 600;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .section {
+    margin-bottom: 2rem;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #ddd;
+    padding: 0.75rem 1rem;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #005caa;
+    color: white;
+  }
+  
+  .chart-placeholder {
+    height: 200px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    color: #666;
+  }
+  
+  .section ul {
+    padding-left: 1.25rem;
+    list-style: disc;
+    color: #444;
+  }
+  .stress-low {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .calendar-section,
+  .alerts-section {
+    margin-bottom: 2rem;
+  }
+  
+  .calendar-placeholder {
+    background-color: #fff;
+    border: 1px dashed #bbb;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+    border-radius: 8px;
+  }
+  
+  .alert-box {
+    background-color: #fff3cd;
+    padding: 1rem;
+    border-radius: 8px;
+    color: #856404;
+    border: 1px solid #ffeeba;
+  }
+  

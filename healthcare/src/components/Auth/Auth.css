@@ -1,0 +1,86 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f6f9fc;
+  }
+  
+  .auth-card {
+    background: #ffffff;
+    padding: 2rem 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .auth-card h2 {
+    margin-bottom: 1.5rem;
+    color: #1a1a1a;
+  }
+  
+  .auth-card form input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .btn-primary {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .auth-links {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .auth-links a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .auth-links a:hover {
+    text-decoration: underline;
+  }
+  .signup-header {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .signup-header h2 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .switch-role-text {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #555;
+  }
+  
+  .role-switch-btn {
+    background: none;
+    border: none;
+    color: #00aaff;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 0;
+    font-size: 14px;
+  }
+  
